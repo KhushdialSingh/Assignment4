@@ -1,0 +1,140 @@
+/*
+File name: app.css
+Author name: Khushdial Singh
+website name: Khushdial Singh
+Description: this file includes all the styling element that are used in this project
+
+*/
+
+/* setting properties of the body */
+body{
+    background-image: url("background.jpg");
+    background-size: 100%  100%; 
+    background-attachment: fixed;
+}
+
+/* setting properties of the main div */
+#mainDiv{
+    width: 1024px;
+    margin: auto;
+}
+
+/* setting properties of the navbar */
+ul {
+    height: 60px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgba(230,230,230,0.8);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    height: 50px;
+    margin-top: 5px;
+    display: block;
+    font-size: 20px;
+    color: #00f;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:rgba(179,179,179,0.5);
+    color: #000;
+    text-decoration: none;
+    
+    border: thin;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.active{
+    pointer-events: none;
+    cursor: default;
+    background-color:rgba(255,255,204,0.5);
+    color: #000;
+    border: thin;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* setting properties of the logo */
+#logo{
+    height: 60px;
+    width: auto;
+}
+
+#content{
+    margin-top: 30px;
+}
+
+/* setting properties of the profile picture */
+#profile{
+    width: 30%;
+    float: left;
+}
+
+/* setting properties of the content section in the pages */
+#title1{
+    float: left;
+    width: 70%;
+    text-align: center;
+}
+#content1{
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+textarea{
+    resize: none;
+}
+
+#smallContent1{
+    font-size: 20px;
+}
+
+#smallContent2{
+    font-size: 20px;
+}
+
+#smallContent3{
+    font-size: 20px;
+}
+
+
+/* setting properties of the project section pictures and links */
+#p1{
+    width: 100%;
+    height: auto;
+}
+
+#p2{
+    width: 100%;
+    height: auto;
+}
+
+#p3{
+    width: 100%;
+    height: auto;
+}
+
+#link{
+    font-size: 20px;
+}
+
+
+/*
+w3schools.com was used to make the navbar
+*/
